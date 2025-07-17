@@ -1,12 +1,12 @@
 
-# 📊 Drexel Co-op Experience Analytics Dashboard (2017–2020)
+# Drexel Co-op Experience Analytics Dashboard (2017–2020)
 
 **Project Type:** Data Analytics | NLP | Sentiment Analysis | Dashboard Visualization  
 **Tools Used:** Python (Pandas, Matplotlib, Seaborn, NLTK), Tableau, Excel  
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This project explores Drexel University’s Co-op program data (2017–2020) to uncover patterns in:
 - Skills learned and developed  
@@ -18,7 +18,7 @@ It leverages **Natural Language Processing (NLP)** and **data visualization** to
 
 ---
 
-## 📁 Files Included
+## Files Included
 
 - `Dashboard_Drexel_Co-op_2017-20.twbx` → Tableau dashboard (Skills, Categories, Major, Year)  
 - `Sentiment_analysis_result.xlsx` → Sentiment classification data  
@@ -27,7 +27,7 @@ It leverages **Natural Language Processing (NLP)** and **data visualization** to
 
 ---
 
-## 📈 Key Visual Insights
+## Key Visual Insights
 
 ### 1. **Top Skills & Keywords**  
 - Most frequently mentioned: `time_management` (24.79%), `networking`, `statistics`, `problem_solving`, `economics`
@@ -44,7 +44,7 @@ It leverages **Natural Language Processing (NLP)** and **data visualization** to
 
 ---
 
-## 💬 Sentiment Analysis
+## Sentiment Analysis
 
 Performed sentiment classification on student feedback using Python:
 
@@ -59,14 +59,14 @@ Performed sentiment classification on student feedback using Python:
 
 ---
 
-## 🌍 Demographic Distribution
+## Demographic Distribution
 
 - Majority participants were **US citizens**, with active representation from **non-US citizens** as well.  
 - Number of co-ops ranged from `Only`, `First`, `Second`, to `Third`.
 
 ---
 
-## 📊 Technologies Used
+## Technologies Used
 
 - **Python** – NLP, Data Cleaning, Sentiment Classification  
 - **Tableau** – Data Dashboard Creation  
@@ -78,7 +78,7 @@ Performed sentiment classification on student feedback using Python:
 
 
 
-## 📌 Preview
+## Preview
 
 ![Dashboard Preview 1](./Screenshot%202025-07-14%20at%209.37.11 PM.png)  
 ![Dashboard Preview 2](./Screenshot%202025-07-14%20at%209.37.24 PM.png)
