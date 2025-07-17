@@ -1,58 +1,88 @@
+
+# 📊 Drexel Co-op Experience Analytics Dashboard (2017–2020)
+
 **Project Type:** Data Analytics | NLP | Sentiment Analysis | Dashboard Visualization  
 **Tools Used:** Python (Pandas, Matplotlib, Seaborn, NLTK), Tableau, Excel  
 
 ---
 
-##  Project Overview
+## 🧠 Overview
 
-This project explores student feedback from Drexel University’s Cooperative Education (Co-op) program between 2017 and 2020. By analyzing open-ended survey responses and structured data, the goal was to uncover meaningful insights about student experiences, skill development, and emotional sentiment across multiple dimensions such as major, co-op cycle, and citizenship status.
+This project explores Drexel University’s Co-op program data (2017–2020) to uncover patterns in:
+- Skills learned and developed  
+- Major-wise and category-wise participation  
+- Sentiment analysis of student experiences  
+- Temporal trends and citizenship breakdowns  
 
-Natural Language Processing (NLP) was used to analyze qualitative responses, and interactive dashboards were built in Tableau to make trends and patterns easy to visualize.
-
----
-
-## Key Objectives
-
-- Identify the most frequently mentioned skills students developed or wanted to improve.
-- Understand how co-op experiences varied by academic major, year, and number of completed co-op cycles.
-- Analyze student sentiment (positive, neutral, negative) using NLP tools.
-- Visualize participation trends and feedback patterns across different student demographics.
+It leverages **Natural Language Processing (NLP)** and **data visualization** to provide insights into student learning outcomes, strengths, and areas of improvement across academic majors and years.
 
 ---
 
-## Insights & Findings
+## 📁 Files Included
 
-### 💡 Top Skills Cited by Students:
-- **Time Management** was the most frequently mentioned skill (**24.79%** of responses).
-- Other common skills included **networking**, **problem-solving**, **statistics**, and **economics**.
-
-### Participation Trends:
-- **2018** had the highest number of co-op experiences recorded.
-- Participation levels remained fairly consistent across all four years (2017–2020).
-
-### Academic Program Highlights:
-- Students from **Economics (ECON)**, **Marketing (MKTG)**, **Accounting (ACCT)**, **Finance (FIN)**, and **Management Information Systems (MIS)** contributed the most feedback.
-
-### 💬 Sentiment Analysis Results:
-Using **VADER Sentiment Analysis** from Python's **NLTK** library:
-- **37.5%** of student responses were positive.
-- **60.7%** were neutral.
-- Only **1.7%** expressed negative sentiment.
+- `Dashboard_Drexel_Co-op_2017-20.twbx` → Tableau dashboard (Skills, Categories, Major, Year)  
+- `Sentiment_analysis_result.xlsx` → Sentiment classification data  
+- `Final_Words.xlsx` → Preprocessed keyword frequency data  
+- `Upload.ipynb` → Python script used for data preprocessing and sentiment analysis  
 
 ---
 
-## Interactive Dashboards
+## 📈 Key Visual Insights
 
-Two Tableau dashboards were created to visualize:
-- Skill frequency across programs and years  
-- Sentiment and participation trends segmented by major, co-op cycle, and citizenship status
-<img width="1072" height="799" alt="Screenshot 2025-07-14 at 9 37 11 PM" src="https://github.com/user-attachments/assets/76f9d99a-5bca-412e-8cb6-f46e474f6160" />
+### 1. **Top Skills & Keywords**  
+- Most frequently mentioned: `time_management` (24.79%), `networking`, `statistics`, `problem_solving`, `economics`
 
-<img width="1055" height="803" alt="Screenshot 2025-07-14 at 9 37 24 PM" src="https://github.com/user-attachments/assets/32ce1485-0c19-49ea-8cfd-97608d419147" />
+### 2. **Year-wise Co-op Trends**  
+- Peak participation in 2018 (309.3 instances)  
+- Consistent distribution across 2017 to 2020
 
+### 3. **Category Distribution**  
+- Majority responses categorized into: `Skills_used`, `EMP_Strengths`, `Skills_to_develop`, `Coursework`
+
+### 4. **Major-wise Breakdown**  
+- Dominant participation from majors: `ECON`, `MKTG`, `ACCT`, `FIN`, `MIS`
 
 ---
 
-## ✅ Outcomes
+## 💬 Sentiment Analysis
 
-This project demonstrated the power of combining structured data analysis with NLP to uncover both qualitative and quantitative insights. It provided a clearer understanding of how Drexel students perceive and grow from their co-op experiences—insights that can be used to improve future program planning, support services, and engagement strategies.
+Performed sentiment classification on student feedback using Python:
+
+| Sentiment   | Percentage |
+|-------------|------------|
+| Positive    | 37.53%     |
+| Neutral     | 60.74%     |
+| Negative    | 1.73%      |
+
+- Most students shared neutral or positive experiences.  
+- Sentiment was analyzed using **NLTK VADER** and visualized via custom dashboards.
+
+---
+
+## 🌍 Demographic Distribution
+
+- Majority participants were **US citizens**, with active representation from **non-US citizens** as well.  
+- Number of co-ops ranged from `Only`, `First`, `Second`, to `Third`.
+
+---
+
+## 📊 Technologies Used
+
+- **Python** – NLP, Data Cleaning, Sentiment Classification  
+- **Tableau** – Data Dashboard Creation  
+- **Excel** – Data Preprocessing  
+- **Jupyter Notebook** – Visualizations, word frequency, sentiment categorization
+
+---
+
+
+
+
+## 📌 Preview
+
+![Dashboard Preview 1](./Screenshot%202025-07-14%20at%209.37.11 PM.png)  
+![Dashboard Preview 2](./Screenshot%202025-07-14%20at%209.37.24 PM.png)
+
+---
+
+
